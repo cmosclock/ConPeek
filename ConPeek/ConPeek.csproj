@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CoreRCON" Version="5.0.2" />
+      <PackageReference Include="Vanara.PInvoke.Kernel32" Version="3.3.15" />
+      <PackageReference Include="Vanara.PInvoke.User32" Version="3.3.15" />
+    </ItemGroup>
+
+</Project>
