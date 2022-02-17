@@ -13,8 +13,8 @@ namespace ConPeek
         public MainWindow()
         {
             InitializeComponent();
-            Hide();
             Console.Show();
+            Close();
         }
     }
 }
